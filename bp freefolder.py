@@ -246,12 +246,6 @@ to break the other crease as well)
 problem: will only get a limited kind of vertex
 
 
-algorithm 2
-start with a vertex located in a random point in the square, extend a random even
-number of creases out such that the flat foldability rules are satisfied.
-then pick one of those creases to build the next vertex on, and watch out for
-intersections between the creases of the vertices
-
 
 Idea: make an origami python module, which would include crease intersection stuff,
 storing as a cp file function, as well as crease and vertex classes
